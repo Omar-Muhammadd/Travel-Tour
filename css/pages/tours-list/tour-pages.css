@@ -1,0 +1,817 @@
+.tour-pages{
+    line-height: 3.5;
+}
+
+.tour-pages .gold i{
+    padding: 0 1px;
+}
+.tour-pages .gold span{
+    font-size: 15px;
+    color: #8c8c8c;
+    padding-left: 8px;
+}
+.tour-pages .hh{
+    max-width: 1000px;
+}
+
+.tour-pages .hh i{
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.tour-pages .hh span{
+    font-size: 19px;
+    color: #000000b1;
+    font-family: Sans-Medium, sans-serif;
+}
+
+.tour-pages .col1 .img{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 500px;
+}
+.tour-pages .col2 .img{
+    margin: 0 -6px;
+    height: 239px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.tour-sec1{
+    padding: 0;
+    margin: -40px 0 0 0;
+}
+.tour-sec1 .body-sec_pages h2{
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.tour-sec1 .body-sec_pages p{
+    line-height: 1.8;
+    padding: 10px;
+    color: #565656;
+    font-size: 18px;
+}
+
+.tour-sec1 .body-sec_pages .price{
+    margin: 60px 0;
+    font-family: Sans-SemiBold, sans-serif;
+}
+
+.tour-sec1 .body-sec_pages .price h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+.tour-sec1 .body-sec_pages .price ul li{
+    line-height: 2;
+    font-size: 20px;
+}
+.tour-sec1 .body-sec_pages .price ul li i{
+    padding-right: 10px;
+}
+
+
+
+
+
+/* b2 */
+.tour-sec1 .b2{
+    padding: 10px 0;
+    border-top: 1px solid #8c8c8c71;
+}
+
+.tour-sec1 .b2 span{
+   padding-left: 10px;
+   font-family: Sans-SemiBold, sans-serif;
+}
+.tour-sec1 .b2 li{
+    color: #565656;
+    font-size: 20px;
+    padding: 8px 0 8px 10px;
+}
+.tour-sec1 .b2 ul{
+    padding-bottom: 40px;
+}
+
+
+
+/* b3 */
+
+.tour-sec1 .b3{
+    border-top: 1px solid #8c8c8c71;
+    padding: 45px 0;
+}
+.tour-sec1  .accordion-button{
+padding: 10px 0;
+}
+.tour-sec1  .accordion-header{
+    padding: 20px 0;
+}
+
+.tour-sec1  .accordion-button{
+    background-color: transparent;
+    /* border: transparent; */
+
+    font-size: 23px;
+}
+.tour-sec1  .accordion-body{
+    font-size: 19px;
+    line-height: 1.8;
+    color: #565656;
+   font-family: Sans-SemiBold, sans-serif;
+   margin-bottom: 20px;
+   padding-top: 0;
+
+}
+.tour-sec1  .accordion-item{
+    box-shadow: 0px 0 30px .5px #8c8c8c1e;
+    border: transparent;
+    border-bottom: 1px solid #8c8c8c44 ;
+    
+}
+
+.tour-sec1 .accordion-button:not(.collapsed) {
+    color: #5C98F2;
+}
+
+
+/* b4 */
+
+.tour-sec1 .b4 {
+    margin-top: 50px;
+}
+
+
+/* b5 */
+
+.tour-sec1 .b5 {
+    margin-top: 80px;
+    border-top: 1px solid #8c8c8c71;
+    padding-top: 20px;
+}
+
+
+
+
+/* tour-sec2 */
+.tour-sec2 .Review-com{
+    margin-top: 80px;
+    font-family: Sans-SemiBold, sans-serif;
+}
+.tour-sec2 .Review-com .bt .border{
+    border: transparent;
+
+}
+.tour-sec2 .Review-com .bt{
+    border-bottom: 1px solid #8c8c8c67;
+}
+
+.tour-sec2 .Review-com form{
+    margin-top: 0;
+    width: 60%;
+    border: 0;
+}
+.tour-sec2 .Review-com .btt{
+    padding: 50px 0;
+    border-bottom: 1px solid #8c8c8c67;
+}
+.tour-sec2 .Review-com .gold span{
+    padding-right: 10px;
+    font-size: 15px;
+    color: #565656;
+}
+
+
+.tour-sec2 .Review-com .btt .title h2{
+    font-size: 20px;
+    /* font-weight: 600; */
+    color: #565656;
+}
+.tour-sec2 .Review-com .btt .gold span{
+    padding-left: 10px;
+    color: #56565697;
+    font-size: 12px;
+}
+.tour-sec2 .Review-com .btt .gold i{
+    font-size: 13px;
+}
+.tour-sec2 .Review-com .btt .gold{
+    padding-top: 10px;
+}
+.tour-sec2 .Review-com .btt .comm p{
+    font-size: 20px;
+}
+
+.tours .pricing{
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 30px;
+    box-shadow: 0 0 20px 3px #8c8c8c3d;
+}
+.tours .pricing h3{
+    margin-bottom: 20px;
+}
+.tours .pricing i{
+    font-size: 18px;
+    color: #565656;
+    padding-right: 10px;
+}
+.tours .pricing .f{
+    color: #565656;
+    font-family: Sans-SemiBold, sans-serif;
+    
+}
+.tours .pricing .p{
+    padding-left: 10px;
+    font-size: 25px ;
+    color: #5C98F2;
+    font-family: Sans-SemiBold, sans-serif;
+    font-weight: 600;
+}
+
+.tours .pricing .eye{
+    padding-left: 10px;
+}
+
+.tours .help{
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid #565656;
+    line-height: 2.5;
+}
+.tours .help h3{
+    padding-bottom: 10px;
+}
+.tours .help li i{
+    padding: 0 10px;
+}
+
+
+.tour-sec2 .Review-com .img-review{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+ 
+
+
+
+
+
+
+
+
+.oahu .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/eng.yousseff.jpg) center/cover;
+
+}
+.oahu .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/5-Day\ Oahu\ Tour/karsten-winegeart-fd1cQ3mmBTE-unsplash-900x500.jpg)center/cover;
+}
+.oahu .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/5-Day\ Oahu\ Tour/beautiful-tropical-beach-sea.jpg)center/cover;
+}
+.oahu .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/5-Day\ Oahu\ Tour/sea-beach.jpg)center/cover;
+}
+.oahu .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/5-Day\ Oahu\ Tour/umbrella-chair-around-beach-sea-travel-vacation.jpg)center/cover;
+}
+.oahu .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/5-Day\ Oahu\ Tour/peter-thomas-TRAYV5rsA9Y-unsplash.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Johannesburg .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/eng.youssef.jpg) center/cover;
+
+}
+.Johannesburg .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Johannesburg/sammy-wong-QHH3WH1ZBsk-unsplash-900x500.jpg)center/cover;
+}
+.Johannesburg .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Johannesburg/semba.jpg )center/cover;
+}
+.Johannesburg .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Johannesburg/3.jpg)center/cover;
+}
+.Johannesburg .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Johannesburg/4.jpg)center/cover;
+}
+.Johannesburg .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Johannesburg/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Africa .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+
+}
+.Africa .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Africa/1.jpg)center/cover;
+}
+.Africa .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Africa/2.jpg )center/cover;
+}
+.Africa .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Africa/3.jpg)center/cover;
+}
+.Africa .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Africa/4.jpg)center/cover;
+}
+.Africa .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Africa/5.jpg)center/cover;
+}
+
+
+
+
+
+.SouthAfrica .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+
+}
+.SouthAfrica .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/SouthAfrica/1.jpg)center/cover;
+}
+.SouthAfrica .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/SouthAfrica/2.jpg )center/cover;
+}
+.SouthAfrica .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/SouthAfrica/3.jpg)center/cover;
+}
+.SouthAfrica .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/SouthAfrica/4.jpg)center/cover;
+}
+.SouthAfrica .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/SouthAfrica/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Chile .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Chile .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Chile/1.jpg)center/cover;
+}
+.Chile .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Chile/2.jpg )center/cover;
+}
+.Chile .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Chile/3.jpg)center/cover;
+}
+.Chile .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Chile/4.jpg)center/cover;
+}
+.Chile .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Chile/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Argentina .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+
+}
+.Argentina .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Argentina/1.jpg)center/cover;
+}
+.Argentina .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Argentina/2.jpg )center/cover;
+}
+.Argentina .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Argentina/3.jpg)center/cover;
+}
+.Argentina .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Argentina/4.jpg)center/cover;
+}
+.Argentina .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Argentina/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Brazil .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Brazil .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Brazil/1.jpg)center/cover;
+}
+.Brazil .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Brazil/2.jpg )center/cover;
+}
+.Brazil .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Brazil/3.jpg)center/cover;
+}
+.Brazil .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Brazil/4.jpg)center/cover;
+}
+.Brazil .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Brazil/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Pais .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Pais .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Pais/1.jpg)center/cover;
+}
+.Pais .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Pais/2.jpg )center/cover;
+}
+.Pais .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Pais/3.jpg)center/cover;
+}
+.Pais .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Pais/4.jpg)center/cover;
+}
+.Pais .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Pais/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+.Austria  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Austria  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Austria/1.jpg)center/cover;
+}
+.Austria  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Austria/2.jpg )center/cover;
+}
+.Austria  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Austria/3.jpg)center/cover;
+}
+.Austria  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Austria/4.jpg)center/cover;
+}
+.Austria  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Austria/5.jpg)center/cover;
+}
+
+
+
+
+
+
+.Dubai  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Dubai  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Dubai/1.jpg)center/cover;
+}
+.Dubai  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Dubai/2.jpg )center/cover;
+}
+.Dubai  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Dubai/3.jpg)center/cover;
+}
+.Dubai  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Dubai/4.jpg)center/cover;
+}
+.Dubai  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Dubai/5.jpg)center/cover;
+}
+
+
+
+
+
+
+.Molokini  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Molokini  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Molokini/1.jpg)center/cover;
+}
+.Molokini  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Molokini/2.jpg )center/cover;
+}
+.Molokini  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Molokini/3.jpg)center/cover;
+}
+.Molokini  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Molokini/4.jpg)center/cover;
+}
+.Molokini  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Molokini/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+.India  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.India  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/India/1.jpg)center/cover;
+}
+.India  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/India/2.jpg )center/cover;
+}
+.India  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/India/3.jpg)center/cover;
+}
+.India  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/India/4.jpg)center/cover;
+}
+.India  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/India/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.America  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.America  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/America/1.jpg)center/cover;
+}
+.America  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/America/2.jpg )center/cover;
+}
+.America  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/America/3.jpg)center/cover;
+}
+.America  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/America/4.jpg)center/cover;
+}
+.America  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/America/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+.Alcatraz  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Alcatraz  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Alcatraz/1.jpg)center/cover;
+}
+.Alcatraz  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Alcatraz/2.jpg )center/cover;
+}
+.Alcatraz  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Alcatraz/3.jpg)center/cover;
+}
+.Alcatraz  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Alcatraz/4.jpg)center/cover;
+}
+.Alcatraz  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Alcatraz/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Venice  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Venice  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Venice/1.jpg)center/cover;
+}
+.Venice  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Venice/2.jpg )center/cover;
+}
+.Venice  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Venice/3.jpg)center/cover;
+}
+.Venice  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Venice/4.jpg)center/cover;
+}
+.Venice  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Venice/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+.Enquiry  .tour-sec2 .Review-com .img-review{
+    background: url(../../../assets/img/person/team-3.jpg) center/cover;
+}
+.Enquiry  .col1 .img11{
+    background: url(../../../assets/img/tour/destinationPages/Enquiry/1.jpg)center/cover;
+}
+.Enquiry  .col2 .img1{
+    background: url(../../../assets/img/tour/destinationPages/Enquiry/2.jpg )center/cover;
+}
+.Enquiry  .col2 .img2{
+    background: url(../../../assets/img/tour/destinationPages/Enquiry/3.jpg)center/cover;
+}
+.Enquiry  .col2 .img3{
+    background: url(../../../assets/img/tour/destinationPages/Enquiry/4.jpg)center/cover;
+}
+.Enquiry  .col2 .img4{
+    background: url(../../../assets/img/tour/destinationPages/Enquiry/5.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .tour-sec1 .pricing{
+        margin-left: 0;
+    }
+    .tour-sec1 .book .card{
+        margin-left: 0px;
+    }
+    .tour-sec1 .book li span{
+        font-size: 15px;
+    }
+    .tour-sec1 .book li i{
+        font-size: 14px;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .tour-sec1 .help{
+        margin-left: 0;
+    }
+    .tour-sec1 .book{
+        margin-top: 100px;
+    }
+    .oahu .tour-sec2 .Review-com .img-review{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .tour-sec2 .Review-com .btt .title{
+        margin-top: 20px;
+        
+    }
+    .tour-sec2 .Review-com .btt .comm{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .tour-sec1  .accordion-button{
+        font-size: 20px;
+    }
+    .tour-sec1  .accordion-body{
+        font-size: 16px;
+    }
+    .tour-sec1 .b2 li{
+        font-size: 18px;
+    }
+    .tour-sec1 .body-sec_pages .price ul {
+        margin-top: 20px;
+    }
+}

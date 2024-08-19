@@ -1,0 +1,1096 @@
+
+body{
+    font-family: Serif-Re,serif;
+    font-weight: 400;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+
+}
+img{
+    width: 100%;
+    /* display: block; */
+}
+
+header{
+    background-color: rgba(169, 169, 169, 0.082);
+}
+
+section{
+    padding: 100px 0;
+}
+
+a{
+    text-decoration-line: none;
+    font-size: 18px;
+    color: black;
+}
+
+p{
+    color: #8c8c8c;
+    font-family: Sans-Regular, sans-serif;
+}
+
+input{
+    background: transparent;
+    border: transparent;
+    color: #7f7f7f;
+    outline: none;
+    padding: 10px 0;
+}
+
+select{
+    outline: none;
+    border: transparent;
+    padding: 10px 0;
+    width: 90%;
+}
+
+del{
+    color: #8c8c8c;
+}
+
+
+
+
+
+/* class */
+.bord{
+    border-bottom: 2px solid #5C98F2;
+}
+
+.sec-head h3{
+    padding-bottom: 19px;
+    font-size: 60px;
+}
+
+.sec-head h3 span{
+
+    color: #5C98F2;
+}
+
+.sec-head p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn-n{
+    font-family: Sans-Regular, sans-serif;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #5C98F2;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar .btn-n{
+    font-weight: 600;
+}
+
+.seeMore{
+    padding-bottom: 5px;
+    transition: all .5s;
+    display: inline-block;
+    border-bottom: 3px solid #e1e1e1;
+}
+.seeMore:hover{
+    border-bottom: 3px solid #5C98F2;
+}
+.seeMore a{
+    color:#000000a9;
+    font-size: 18px;
+    font-family: Sans-Bold, sans-serif;
+}
+.seeMore i{
+    color: #000000a9;
+    padding-left: 8px;
+}
+
+
+.card{
+    border: transparent;
+}
+.card1{
+    border-radius: 15px;
+    z-index: 1;
+    transition: all .5s;
+    height: 280px;
+}
+
+ .card2{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: -5px 15px 20px 10px #7f7f7f15;
+    padding: 30px;
+}
+
+ .card2 h4 a{
+
+    transition: all .5s;
+    color: rgba(0, 0, 0, 0.869);
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.card2 h4:hover a{
+    color: #5C98F2;
+}
+
+ .card2 i{
+    color: goldenrod;
+}
+
+ .card2 span{
+    padding-left: 10px;
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+.card2 .d-flex{
+    padding-top: 8px;
+}
+
+ .bottom{
+    margin-top: 20px;
+}
+
+ .bottom span{
+    color: #5C98F2;
+    font-size: 20px;
+    font-family: Sans-SemiBold, sans-serif;
+    font-weight: 700;
+}
+
+ .bottom p{
+    margin: 0;
+}
+
+
+.gold i{
+    color: goldenrod;
+}
+
+.ss:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* header */
+/* navbar */
+.navbar-brand .bold{
+    padding-left: 3px;
+    font-size: 35px;
+    font-family: Serif-Re;
+    
+}
+
+.navbar-brand .l-tour{
+    color: #5C98F2;
+}
+
+.nav-link{
+    margin: 0 10px;
+    font-family: Sans-Regular, sans-serif;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-link1::after{
+    transition: all .5s;
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #5C98F2;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+}
+.nav-link1::before{
+    transition: all .5s;
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #5C98F2;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+}
+.nav-link1:hover::after{
+    right: 50%;
+    width: 35%;
+}
+.nav-link1:hover::before{
+    left: 50%;
+    width: 35%;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-item{
+    font-size: 16px;
+    font-family: Sans-Regular;
+}
+
+
+
+
+
+
+/* section header */
+
+.head-btn{
+    display: inline-block;
+    font-family: Sans-Regular, sans-serif;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #41ddb8;
+    background-color: #fff;
+    box-shadow: 5px 10px 20px rgba(128, 128, 128, 0.098);
+}
+
+.sec-header h1{
+    padding: 30px 0;
+    font-size: 80px;
+}
+
+.sec-header h1 span{
+    color: #5C98F2;
+}
+
+.sec-header p{
+    font-size: 20px;
+    margin: 0;
+    color: #8c8c8c;
+}
+
+.div-img{
+    background: url(
+        ../assets/img/Home/1560.jpg
+    ) center/cover;
+    height: 650px;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.position{
+    position: relative;
+}
+
+.form{
+    position: absolute;
+    bottom: 15%;
+    font-family: Sans-Regular, sans-serif;
+    padding-left: 40px ;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #8c8c8c5f;
+}
+
+.pp{
+    padding: 25px 0;
+}
+
+form label{
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.div-input{
+    padding-top: 10px ;
+
+}
+
+.div-input input{
+    font-size: 15px;
+}
+
+.div-search{
+    color: #fff;
+}
+
+.div-search p{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ss{
+    padding-right: -20px;
+    background-color: #5C98F2;
+    border-radius: 0 30px 30px 0px;
+}
+
+/* sec 1 */
+.sec1{
+    padding-top: 80px;
+}
+.sec1 .img1{
+    background: url(../assets/img/Home/egypt.jpg) center/cover;
+}
+
+.sec1 .img2{
+    background: url(../assets/img/Home/africa.jpg) center/cover;
+}
+
+.sec1 .img3{
+    background: url(../assets/img/Home/europe.jpg) center/cover;
+}
+
+.sec1 .img4{
+    background: url(../assets/img/Home/sandinavia.jpg) center/cover;
+}
+
+.sec1 .img5{
+    background: url(../assets/img/tour/destination/asia.jpg) center/cover;
+}
+
+.sec1 .img6{
+    background: url(../assets/img/Home/america.jpg) center/cover;
+}
+
+.sec1 .card{
+    border:  transparent;
+    overflow: hidden;
+    margin-top: 25px;
+    position: relative;
+    height: 300px;
+    box-shadow: inset 1px -20px 60px 60px rgba(0, 0, 0, 0.396);
+}
+
+.sec1 .card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.sec1 .card:hover::after{
+  opacity: .7;
+}
+
+.sec1 .card::before{
+    z-index: 11;
+    font-family: Sans-Regular, sans-serif;
+    font-size: 15px;
+    content: "";
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 70px;
+    height: 35px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #5C98F2;
+    color: #fff;
+}.sec1 .img1::before{
+    content: "3 tours";
+}.sec1 .img2::before{
+    content: "2 tours";
+}.sec1 .img3::before{
+    content: "3 tours";
+}.sec1 .img4::before{
+    content: "2 tours";
+}.sec1 .img5::before{
+    content: "5 tours";
+}.sec1 .img6::before{
+    content: "4 tours";
+}
+
+.sec1 .div-card{
+    position: absolute;
+    bottom: -45%;
+    left: 10%;
+    width: 80%;
+    z-index: 1;
+    color: white;
+    transition: all .5s;
+}
+
+.sec1 .card:hover .div-card{
+    bottom: 10%;
+}
+
+.sec1 .div-card p{
+    padding: 20px;
+    color: white;
+}
+
+.sec1 .sd a{
+    color: #73a4ed;
+    font-family: Sans-SemiBold, sans-serif;
+}
+
+
+
+
+
+/* sec 2 */
+.sec2{
+    padding-top: 80px;
+}
+.sec2 .img1{
+    background: url(../assets/img/Home/argentien.jpg) center/cover;
+}
+
+.sec2 .img2{
+    background: url(../assets/img/Home/indian.jpg) center/cover;
+}
+
+.sec2 .img3{
+    background: url(../assets/img/Home/amrican\ ssss.jpg) center/cover;
+}
+
+.sec2 .card{
+    /* overflow: hidden; */
+    height: 600px;
+}
+
+.sec2 .card::before{
+    top: 2%;
+    width: 80px;
+}
+
+.sec2 .img1::before{
+    content: none;
+}.sec2 .img2::before{
+    content: "25% Off";
+}.sec2 .img3::before{
+    content: "15% Off";
+}
+
+.sec2 .div-card{
+    bottom: -10%; 
+}
+
+.sec2 h3 a{
+    color: #fff;
+    font-size: 28px;
+
+}
+.sec2 .days{
+    padding-top: 20px;
+}
+.sec2 .days p {
+    padding: 0;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-family: Sans-SemiBold, sans-serif;
+    margin-bottom: 2px;
+}
+.sec2 .days i{
+    color: goldenrod;
+    font-size: 14px;
+    padding-right: 2px;
+}
+.sec2 .days .d-flex span{
+    font-family: Sans-SemiBold, sans-serif;
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #e1e1e1;
+}
+
+.sec2 .days p{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.sec2 .days span{
+    font-size: 16px;
+    font-family: Sans-SemiBold, sans-serif;
+}
+
+.sec2 .days del{
+    font-family: Sans-SemiBold, sans-serif;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+
+/* sec 3 */
+.sec3{
+    position: relative;
+    background-color: rgba(169, 169, 169, 0.082);
+}
+/* .sec3 .h{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sec3 .es{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all .5s;
+    animation: move 6s infinite;
+}@keyframes move{
+    40%{
+        transform: translate(5px,20px);
+    }
+    60%{
+        transform: translate(20px,-10px);
+    }
+    80%{
+        transform: translate(0,0);
+    }
+}
+.sec3 .e{
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 25px;
+    animation: blink 6s infinite;
+}@keyframes blink{
+    0%{
+        height: 10px;
+        width:10px;
+    }
+    15%{
+        height: 10px;
+        width: 5px;
+    }
+    20%{
+        height: 10px;
+        width: 5px;
+    }
+    60%{
+        height: 10px;
+        width: 5px;
+    }
+    70%{
+        height: 10px;
+        width: 10px;
+    }
+    85%{
+        height: 10px;
+        width: 10px;
+    }
+    90%{
+        height: 5px;
+        width: 10px;
+    }
+    100%{
+        height: 10px;
+        width: 10px;
+    }
+    
+} */
+
+.sec3 .img1{
+    background: url(../assets/img/tour/destinationPages/Molokini/2.jpg) center/cover;
+}
+.sec3 .img2{
+    background: url(../assets/img/tour/destinationPages/Dubai/5.jpg) center/cover;
+}
+.sec3 .img3{
+    background: url(../assets/img/tour/destinationPages/Chile/5.jpg) center/cover;
+}
+.sec3 .img4{
+    background: url(../assets/img/tour/destinationPages/Chile/3.jpg) center/cover;
+}
+.sec3 .card{
+    background: transparent;
+    margin-top: 20px;
+}
+.sec3 .card1{
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+    transform: translateY(100px);
+}
+
+.sec3 .card:hover .card1{
+    border-radius: 15px 15px 0 0;
+    transform: translateY(0);
+}
+
+.sec3 .card2{
+    transition: all .5s;
+    transform: translateY(-150px);
+}
+
+.sec3 .card:hover .card2{
+    border-radius:  0 0 15px 15px;
+    transform: translateY(0);
+}
+
+.sec3 .bottom{
+    margin-top: 20px;
+}
+
+.sec3 .bottom span{
+    color: #5C98F2;
+    font-size: 20px;
+    font-family: Sans-SemiBold, sans-serif;
+    font-weight: 700;
+}
+
+.sec3 .bottom p{
+    margin: 0;
+}
+
+
+/* sec 4 */
+.sec4 .card1{
+    height: 300px;
+}
+.sec4 .img1{
+    background: url(../assets/img/Home/bed1.jpg) center/cover;
+}
+
+.sec4 .img2{
+    background: url(../assets/img/Home/bed5.jpg) center/cover;
+}
+
+.sec4 .img3{
+    background: url(../assets/img/Home/bed3.jpg) center/cover;
+}
+
+.sec4 .img4{
+    background: url(../assets/img/Home/bed4.jpg) center/cover;
+}
+
+.sec4 .card1{
+    border-radius: 10px 10px 0 0;
+}
+.sec4 .card2{
+    border-radius:  0 0 10px 10px;
+}
+
+
+.sec4 .bed{
+    font-size: 17px;
+    padding-top: 15px;
+}
+.sec4 .bed span{
+    color: #8c8c8cb6;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sec4 .bed i{
+    padding-top: 5px;
+    color: #8c8c8cb6;
+}
+
+
+/* sec 5 */
+.sec5{
+    padding: 120px 0;
+}
+.sec5 .card{
+    color: #fff;
+    padding-left: 30px;
+    height: 300px;
+    margin: 20px;
+    background-color: #e1e1e18b;
+}
+
+.sec5 .img{
+    box-shadow: inset  100px 100px 120px rgba(0, 0, 0, 0.568);
+    background: url(../assets/img/Home/1560.jpg) center/cover;
+}
+.sec5 .card h3{
+    font-size: 40px;
+}
+.sec5 .card p{
+    font-size: 16px;
+    color:#fff;
+}
+
+.sec5 .black{
+    color: #000;
+}
+.sec5 .black p{
+    margin: 0;
+    color: #000000a8;
+}
+.sec5 form{
+    margin-top: 20px;
+    padding: 0 0 0 15px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.sec5 .form input{
+    padding-left: 30px;
+}
+.sec5 form i{
+    padding-right: 8px;
+    color: #000000a8;
+}
+
+.sec5 .buton{
+    border-radius: 30px;
+}
+
+
+/* sec 6 */
+.sec6
+{
+    overflow: hidden;
+    height: 700px;
+    position: relative;
+    background: url(../assets/img/header-d.jpg) center/cover;
+}
+
+.sec6 .sec-head h2{
+    font-size: 45px;
+}
+.sec6 .card{
+    border-radius: 30px;
+    padding: 70px;
+}
+
+.sec6 img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sec6 h5{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sec6 .ppp{
+    max-width: 90%;
+    line-height: 1.6;
+    color: #000000bd;
+}
+
+.sec6 .b1{
+    position: absolute;
+    left: -25%;
+    z-index: 1;
+}
+.sec6 .b2{
+    position: absolute;
+    left: 26%;
+    z-index: 2;
+}
+.sec6 .b3{
+    position: absolute;
+    right: -27%;
+    z-index: 3;
+}
+.sec6 .b .card{
+    margin-top: 30px;
+    padding: 42px;
+    opacity: .6;
+
+}
+
+
+
+
+/* sec 7 */
+.sec7 .col-3{
+    text-align: end;
+
+}
+.sec7 img{
+    width: 80%;
+}
+.sec7 p{
+    padding-top: 8px;
+    font-size: 18px;
+}
+.sec7 h3{
+    font-size: 25px;
+}
+
+
+/* footer */
+footer{
+    padding: 50px 0 0 0;
+    background: #000000e5;
+    color: #fff;
+}
+
+footer ul{
+    padding: 20px 0;
+}
+footer ul span{
+    color: #fff;
+    padding-right: 5px;
+}
+footer ul li{
+    line-height: 2;
+    font-family: Sans-SemiBold, sans-serif;
+    color: #8c8c8c;
+    transition: all .5s;
+}
+footer ul li:hover{
+    color: #5C98F2;
+}
+
+footer h3 span{
+    color: #5C98F2;
+}
+footer .lo{
+    font-size: 35px;
+}
+footer  .pra{
+   max-width: 80%;
+}
+
+footer .d-flex li{
+    padding: 0 10px ;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .d li{
+    padding: 0 8px ;
+    font-size: 28px;
+}
+footer .d li{
+    transition: all .5s;
+}
+footer .d li:hover{
+    color: #fff;
+    transform: rotateY(180deg);
+}
+ footer .b li a{
+    transition: all .5s;
+    color: #fff;
+} 
+footer .b li a:hover{
+    color: #5C98F2;
+} 
+
+footer .copyright{
+    background-color: #000;
+}
+.copyRight a{
+    padding-left: 5px;
+}
+.copyRight i{
+    color: #5C98F2;
+    padding-left: 5px;
+}
+footer .copyright a {
+    transition: all .5s;
+    color: #dae9ff;
+}
+footer .copyright a:hover {
+    color: #5C98F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+@media screen and (max-width: 1440px){
+    .mt1{
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .sec-header h1{
+        font-size: 60px;
+    }
+    .form{
+        bottom: 15%;
+    }
+
+
+    /* sec 1 */
+    .sec1 .div-card{
+        bottom: -55%;
+    }
+
+    /* sec 2 */
+    .sec2 h3 a {
+        font-size: 26px;
+    }
+
+    .mt1{
+        margin-top: -100px;
+    }
+
+    .sec3 .h {
+    display: none;
+    }
+
+    .sec6 .card {
+        padding: 40px;
+    }
+
+    .sec7 i{
+        padding: 0;
+    }
+
+
+
+   
+}
+
+
+@media screen and (max-width: 768px){
+
+    .sec-header h1{
+        font-size: 60px;
+    }
+    .form{
+        padding-left: 40px;
+        bottom: 5%;
+        left: 5%;
+    }
+    .ss{
+        margin-left: -20px;
+        border-radius: 30px;
+    }
+    .div-search {
+        padding: 15px 0;
+    }
+    .div-search p{
+        padding-top: 0;
+    }
+    .div-img{
+        margin-top: 30px;
+    }
+
+    .sec-header p{
+        font-size: 20px;
+    }
+
+    .mt1{
+        margin-top: 0;
+    }
+    .mt2{
+        margin-top: -100px;
+    }
+
+
+    .sec6 .b1{
+        display: none;
+    }
+    .sec6 .b2{
+        width: 90%;
+        left: 5%;
+    }
+    .sec6 .b3{
+        display: none;
+
+    }
+
+
+
+
+   
+
+}
+
+
+@media screen and (max-width: 600px){
+    section{
+        padding: 50px 10px;
+    }
+    .sec-header h1 {
+        font-size: 50px;
+    }
+    
+    .sec-head h3{
+        font-size: 50px;
+    }
+
+    .sec1 .div-card{
+        bottom: -45%;
+    }
+    .sec1 .div-card h3{
+        font-weight: 600;
+    }
+    .mt3{
+        margin-top: -100px;
+    }
+
+    .sec5 form {
+        padding-left: 8px;
+        margin-right: 30px;
+    }
+   
+    .sec5 .buton{
+        font-size: 11px;
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        margin-left: -3px;
+    }
+
+    .sec5 .card h3 {
+        font-size: 30px;
+    }
+    .sec5 .card p {
+        font-size: 16px;
+    }
+    .sec6{
+        height: 800px;
+    }
+    .sec6 .sec-head h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .sec6 .card .dr{
+        width: 60%;
+    }
+    .ppp{
+        font-size: 15px;
+    }
+    .sec7 i {
+        font-size: 50px;
+    }
+
+
+    footer .lo{
+        padding-bottom: 30px;
+    }
+
+
+
+
+
+
+}
+
+
+
+

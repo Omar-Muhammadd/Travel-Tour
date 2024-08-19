@@ -1,0 +1,176 @@
+.AboutUs section{
+    font-family: Sans-Medium;
+    margin: 70px 50px;
+}
+
+.AboutUs .About-header{
+
+    background: url(../../assets/img/about/header.png)center/cover;
+}
+
+.AboutUs .About-header h2{
+    font-family: Serif-Re;
+    font-size: 70px;
+}
+.AboutUs .About-header p{
+    padding-top: 10px;
+   font-size: 23px;
+}
+
+.AboutUs .sec1-AboutUs .coll{
+    padding: 40px;
+}
+
+ .sec1-AboutUs .coll2 h2{
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-family: Sans-Bold;
+}   
+ .sec1-AboutUs .coll2 p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+ .sec1-AboutUs .coll2 h3{
+    font-size: 20px;
+    font-family: Sans-Bold;
+    
+}
+ .sec1-AboutUs .coll2 img{
+    width: 70%;
+    color: #2d2d2d;
+}
+
+ .sec1-AboutUs .coll2 .btn-n{
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: Sans-Bold;
+    
+}
+
+
+ .sec2-AboutUs h2{
+    padding-bottom: 100px;
+    font-family: Serif-Re;
+    font-size: 50px;
+    
+}
+
+.AboutUs .sec2-AboutUs .card-img{
+    overflow: hidden;
+}
+.AboutUs .sec2-AboutUs .card-img img{
+    height: 330px;
+    transition: all .4s;
+    border-radius: 10px;
+}
+.AboutUs .sec2-AboutUs .card-img:hover img{
+    scale: 1.09;
+    cursor: pointer;
+}
+.AboutUs .sec2-AboutUs .card-body{
+    margin-bottom: 30px;
+}
+.AboutUs .sec2-AboutUs .card-body h4{
+    transition: all .5s;
+    font-family: Serif-Re;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.AboutUs .sec2-AboutUs .card-body h4:hover{
+    color: #5C98F2;
+    cursor: pointer;
+}
+
+.AboutUs .sec2-AboutUs .card-body p{
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.AboutUs .sec2-AboutUs .card-body i{
+    transition: all .5s;
+    margin: 0 10px;
+    padding-top: 15px;
+}
+.AboutUs .sec2-AboutUs .card-body i:hover{
+    color: #5C98F2;
+    cursor: pointer;
+
+}
+.AboutUs .sec2-AboutUs .team{
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+.img-omar{
+    background: url(../../assets/img/person/omar1.jpg) center/cover ;
+    height: 330px;
+    transition: all .4s;
+}
+.img-omar:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
+
+
+.img-mahmoud{
+    background: url(../../assets/img/person/mahmoud.jpg) center/cover ;
+    height: 330px;
+    transition: all .4s;
+}
+.img-mahmoud:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
+
+.img-muhammad{
+    background: url(../../assets/img/person/muhammad.jpg) center/cover ;
+    height: 330px;
+    transition: all .4s;
+}
+.img-muhammad:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
+
+.img-abanob{
+    background: url(../../assets/img/person/eng.abanob.jpg) center/cover ;
+    height: 330px;
+    transition: all .4s;
+}
+.img-abanob:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
+.AboutUs .sec7 {
+    margin: 0;
+    background: url(../../assets/img/header-d.jpg)center/cover;
+}
+
+.AboutUs .secc{
+    margin: 0;
+    padding: 0;
+}
+
+.down .d-flex{
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.secc .down  span{
+    transition: all .9s;
+    border: 1px solid #2d2d2d;
+    padding: 30px;
+    margin: 1px;
+}
+.secc .down  span:hover{
+    color: #5C98F2;
+    background-color: #5C98F2;
+}
+
+
+@media screen and (max-width: 600px){
+    .AboutUs section{
+        margin: 0;
+    }
+}

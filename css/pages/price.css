@@ -1,0 +1,80 @@
+.Price .Pricing .card {
+    background-color: #ebebebda;
+    /* padding: 40px; */
+}
+.Price .Pricing .card .h1-card{
+    color: white;
+    background: linear-gradient(#525252, #3e3e3e);
+    padding: 10px 0 30px 0;
+}
+.Price .Pricing .card .h1-card i{
+    font-size: 45px;
+    padding: 50px 0 30px 0;
+}
+.Price .Pricing .card .h1-card h3{
+    font-size: 20px;
+}
+
+
+
+.Price .Pricing .card .h2-card-price{
+    background-color: #e5e5e5;
+    padding: 20px 0;
+}
+.Price .Pricing .card .h2-card-price .doular{
+    font-size: 20px;
+}
+.Price .Pricing .card .h2-card-price .pricing{
+    font-size: 50px;
+}
+.Price .Pricing .card .h2-card-price .mo{
+    color: #929292;
+}
+
+.Price .Pricing .list-card li {
+    font-family: Sans-Medium;
+    border: 1px solid #e5e5e5;
+    padding: 20px 0;
+    color: #8d8d8d;
+}
+
+.Price .Pricing .list-card li i{
+    padding-right: 10px;
+}
+
+.Price .Pricing .btnn{
+    margin: 30px 0 40px 0;
+}
+
+.Price .Pricing .btnn span{
+    cursor: pointer;
+    font-family: Sans-Medium;
+    border-radius: 40px;
+    background: linear-gradient(#525252, #3e3e3e);
+    padding: 15px 30px;
+    color: white;
+}
+
+.Price .Pricing .card11 {
+    box-shadow: 0 0 20px 10px #bbbbbb89;
+}
+
+.Price .Pricing .card11 .h1-card{
+    padding: 50px 0;
+    background: linear-gradient(#8ab3f2, #5c98f2);
+}
+.Price .Pricing .card11 .h1-card p{
+    color: white;
+}
+
+.Price .Pricing .card11 .h2-card-price{
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+.Price .Pricing .card11 .h2-card-price .pricing{
+    font-size: 70px;
+}
+.Price .Pricing .card11 .bn span{
+     background: linear-gradient(#8ab3f2, #5c98f2);
+}

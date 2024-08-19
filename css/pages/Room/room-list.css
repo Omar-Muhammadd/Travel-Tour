@@ -1,0 +1,110 @@
+.Room header section{
+    padding: 150px 0;
+}
+.Room header h1{
+    font-size: 70px;
+}
+.Room .sec-Room{
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    padding: 70px ;
+}
+
+.Room .card{
+    margin: 60px 10px;
+}
+.Room .baba{
+    position: relative;
+    height: 650px;
+    box-shadow: 0 1px 30px 1px #bbbbbbab;
+}
+
+.Room .sec-Room .img1{
+    background: url(../../../assets/img/room/list/11.jpg) center/cover  ;
+}
+.Room .sec-Room .img2{
+    background: url(../../../assets/img/room/list/2.jpg) center/cover ;
+}
+.Room .sec-Room .img3{
+    background: url(../../../assets/img/room/list/bed9.jpg) center/cover ;
+}
+.Room .sec-Room .img4{
+    background: url(../../../assets/img/room/list/bed4.jpg) center/cover ;
+}
+.Room .sec-Room .img5{
+    background: url(../../../assets/img/room/list/bed5.jpg) center/cover ;
+}
+.Room .sec-Room .img6{
+    background: url(../../../assets/img/room/list/bed10.jpg) center/cover ;
+}
+
+.sec-Room .card-child{
+    position: absolute;
+    left: 15%;
+    bottom: -7%;
+    background-color: #ffffff;
+    width: 70%;
+    padding: 30px;
+    box-shadow: 0 0 30px 1px #bbbbbbab;
+}
+
+.sec-Room .card-child .child{
+    line-height: 2.8;
+}
+
+.sec-Room .card-child .child .ps-2{
+    color: #7c7c7ccf;
+    font-size: 13px;
+}
+
+.sec-Room .card-child .child h2{
+
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.sec-Room .card-child .child p{
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+
+.sec-Room  a .book-now{
+    font-family: Sans-SemiBold,sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .tour-sec2 .Review-com .img-review{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    }
+
+
+@media screen and (max-width: 600px){
+    .Room header h1{
+        font-size: 50px;
+    }
+    .Room .card{
+        margin: 60px 0;
+       
+    }
+    .Room .sec-Room{
+        padding: 0;
+    }
+    .sec-Room .card-child .child h2{
+        font-size: 30px;
+    }
+
+}

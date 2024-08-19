@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../css/import.css" />
+    <title>Search Tours</title>
+  </head>
+  <body>
+    <header class="egy-header">
+      <nav class="navbar navbar-expand-lg p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"
+            ><span class="l-travel bold">Travel</span>
+            <span class="l-tour bold">Tour</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll f-sans"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link1"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="../pages/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="../pages/services.html"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item nav-link1 dropdown">
+                <a
+                  class="bord active nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tour
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="tours-list.html"
+                      >Tour List</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="tours-search.html"
+                      >Tour Search</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class=" nav-item nav-link1 dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Room
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../room/room-list.html"
+                      >Room List</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../room/room-search.html"
+                      >Room Search</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="../pages/price.html"
+                  >Price</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="../pages/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right f-sans">
+            <button class="btn-n">Login</button>
+          </div>
+        </div>
+      </nav>
+      <section class="Egypt">
+        <div class="container">
+          <h2 class="pb-5 wow fadeInUp">Search Tours</h2>
+        </div>
+      </section>
+    </header>
+    <!-- sec 3 -->
+    <section class="SouthAfrica America Asia WesternEurope pages">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <form action="#">
+              <div class="col-12">
+                <div class="aside keywords">
+                  <label for="text"><span>Keywords</span> </label>
+                  <div class="inputForm">
+                    <input class="w90" type="text" name="text" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+                <div class="aside Duration">
+                  <label for="Duration"><span>Duration</span> </label>
+                  <select name="Duration" id="#">
+                    <option value>Any</option>
+                    <option value="1">1 Day Tour</option>
+                    <option value="4">2-4 Day Tour</option>
+                    <option value="5">5-7 Day Tour</option>
+                    <option value="7">7+ Day Tour</option>
+                  </select>
+                </div>
+                <div class="aside Date">
+                  <label for="Date"><span>Date</span> </label>
+                  <div class="inputForm">
+                    <input type="date" name="Date" id="#" />
+                  </div>
+                </div>
+                <div class="aside Month">
+                  <label for="Month"><span>Month</span> </label>
+                  <select name="name" id="#">
+                    <option value>Any</option>
+                    <option value="2024-05">May 2024</option>
+                    <option value="2024-06">June 2024</option>
+                    <option value="2024-07">July 2024</option>
+                    <option value="2024-08">August 2024</option>
+                    <option value="2024-09">September 2024</option>
+                    <option value="2024-10">October 2024</option>
+                    <option value="2024-11">November 2024</option>
+                    <option value="2024-12">December 2024</option>
+                    <option value="2025-01">January 2025</option>
+                    <option value="2025-02">February 2025</option>
+                    <option value="2025-03">March 2025</option>
+                    <option value="2025-04">April 2025</option>
+                  </select>
+                </div>
+                <div class="aside price">
+                  <div class="row">
+                    <div class="col-6">
+                      <label for="Min Price"><span> Min Price</span></label>
+                      <div class="inputForm">
+                        <input type="text" name="Min Price" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <label for="Max Price"><span> Max Price</span></label>
+                      <div class="inputForm">
+                        <input type="text" name="Max Price" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="aside Rating">
+                  <label for="Rating"><span>Rating</span></label>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>or more</span>
+                  </div>
+                </div>
+                <div class="aside TypeFilter">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>Type Filter</span>
+                  </div>
+                  <div class="Tour">
+                    <label><span>Tour Age</span> </label>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>10+</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>12+</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>15+</span>
+                    </div>
+
+                    <label> <span>Activity</span></label>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>City Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Cultural & Thematic Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Family Friendly Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Holiday & Seasonal Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Indulgence & Luxury Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Outdoor Activites</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Relaxation Tours</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Wild & Adventure Tours</span>
+                    </div>
+
+                    <label><span>Destination</span></label>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>America</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Asia</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Egypt</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Scandinavia</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>South Africa</span>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name id />
+                      <span>Western Europe</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-n">SEARCH</div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="row justify-content-center">
+                  <div class="wow fadeInUp col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                      <a href="../tours/tour-pages/Dubai – All Stunning Places.html"><div class=" card1 img1a"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/Dubai – All Stunning Places.html"
+                            >Dubai – All Stunning Places</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>8 Hours</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <p>From</p>
+                          <span>$1,200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div  class="wow fadeInUpBig col-md-6 col-sm-12 mt-3">
+                    <div class="card SpecialOffer">
+                      <a href="../tours/tour-pages/Molokini and Turtle Snorkeling.html"><div class="Specia card1 img2a"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/Molokini and Turtle Snorkeling.html"
+                            >Molokini and Turtle Snorkeling</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>4 Hours</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                         <p>From</p>
+                          <span>$80</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                      <a href="../tours/tour-pages/India – Mumbai, New Delhi.html"><div class=" card1 img3a"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/India – Mumbai, New Delhi.html"
+                            >India – Mumbai, New Delhi</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>5 Days 4 Nights</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <del>$2,100</del>
+                          <span>$1,600</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUpBig col-md-6 col-sm-12 mt-3">
+                    <div class="card ">
+                      <a href="../tours/tour-pages/Thailand – 4 Days in Phuket.html"><div class=" card1 img4a"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/Thailand – 4 Days in Phuket.html"
+                            >Thailand – 4 Days in Phuket</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>7 Days 6 Nights</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                         <p>From</p>
+                          <span>$1,700</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                      <a
+                        href="../tours/tour-pages/Chile – Santiago, Wine Country.html"
+                        ><div class="card1 img3w"></div
+                      ></a>
+                      <div class="card2">
+                        <h4>
+                          <a
+                            href="../tours/tour-pages/Chile – Santiago, Wine Country.html"
+                            >Chile – Santiago, <br />
+                            Wine Country</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>6 Days 5 Nights</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                          <del>$1,600</del>
+                          <span>$2,200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUpBig col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                      <a href="../tours/tour-pages/America – Grand canyon, Golden Gate.html"><div class=" card1 img3am"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/India – Mumbai, New Delhi.html"
+                            >America – Grand canyon, Golden Gate</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>9 Days 8 Nights</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <del>$2,800</del>
+                          <span>$2,400</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                      <a href="../tours/tour-pages/5-Day Oahu Tour.html"><div class=" card1 img1am"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/5-Day Oahu Tour.html"
+                            >5-Day Oahu Tour: Honolulu</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>5 Days</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <p>From</p>
+                          <span>$1,500</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-12 mt-3">
+                    <div class="card SpecialOffer">
+                      <a href="../tours/tour-pages/Alcatraz Tour plus Muir Woods.html"><div class="Specia card1 img2am"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/Alcatraz Tour plus Muir Woods.html"
+                            >Alcatraz Tour plus Muir Woods</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>10 Hours</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                         <p>From</p>
+                          <span>$120</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wow fadeInUpBig col-md-6 col-sm-12 mt-3">
+                    <div class="card ">
+                      <a href="../tours/tour-pages/Special Day Trip in New York.html"><div class=" card1 img4am"></div></a>
+                      <div class="card2">
+                        <h4>
+                          <a href="../tours/tour-pages/Special Day Trip in New York.html"
+                            >Special Day Trip <br> in New York</a
+                          >
+                        </h4>
+                        <div class="d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(1 Review)</span>
+                        </div>
+                        <div class="days d-flex align-items-center">
+                          <i class="fa-regular fa-clock"></i>
+                          <span>10 Hours</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                         <p>From</p>
+                          <span>$80</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="page page1">
+                1
+              </div>
+              <a href="tours-search2.html"><div class="page ">
+                2
+              </div></a>
+              <a href="tours-search3.html"><div class="page ">
+                3
+              </div></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <h3 class="lo">Travel <span>Tour</span></h3>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <h3>Contact</h3>
+            <ul>
+              <li><span>T:</span>01210165298</li>
+              <li><span>E:</span>omaar5538@gmail.com</li>
+              <ul class="d-flex b">
+                <li>
+                  <a href=" https://wa.me/1210165298"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://t.me/omaar001"
+                    ><i class="fa-brands fa-telegram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61550295477316"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/cleancode01/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Travel Blog & Tips</li>
+              <li>Working With Us</li>
+              <li>Be Our Partner</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <h3>Pay Safely With Us</h3>
+            <p class="pra">
+              The payment is encrypted and transmitted securely with an SSL
+              protocol.
+            </p>
+            <ul class="d-flex d">
+              <li><i class="fa-brands fa-cc-paypal"></i></li>
+              <li><i class="fa-brands fa-cc-visa"></i></li>
+              <li><i class="fa-brands fa-cc-mastercard"></i></li>
+              <li><i class="fa-brands fa-cc-amex"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12">
+              <ul class="d-flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/pages/about.html">About</a></li>
+                <li><a href="html/pages/services.html">Service</a></li>
+                <li><a href="html/pages/price.html">Price</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 copyRight">
+              Copyright © 2024 All Rights Reserved | This template is made with
+              by <i class="fa-solid fa-heart"></i>
+              <a href="https://www.facebook.com/profile.php?id=61550295477316"
+                >Omar Muhammad</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JS -->
+    <script src="../../js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../js/bootstrap/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,209 @@
+.Tour h1{
+    font-size: 70px;
+
+}
+
+
+.tours .cardTours1{
+    height: 350px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.tours .cardTours1::before{
+    content: "Best Seller";
+    background-color: #5C98F2;
+    color: #fff;
+    font-family: Sans-Bold, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 120px;
+    height: 42px;
+    position: absolute;
+    top: 5.1%;
+    left: -10px;
+    border-radius: 0 0  0 6.5px;
+    text-align: center;
+    align-content: center;
+    animation: move 3s infinite;
+}
+@keyframes move{
+    
+    50%{
+        font-size: 16px;
+    }
+}
+
+.tours .cardTours1::after{
+    content: "";
+    background-color: #5C98F2;
+    padding: 5px;
+    position: absolute;
+    top: 15.9%;
+    left: -1.10%;
+    border-radius: 0 0  0 100%;
+}
+
+
+.tours .img1{
+    background: url(../../../assets/img/tour/destination/geran-de-klerk-N9s3FjzsstM-unsplash-700x500.jpg) center/cover;
+}
+.tours .img2{
+    background: url(../../../assets/img/tour/destination/dubai.jpg) center/cover;
+}
+.tours .img3{
+    background: url(../../../assets/img/tour/destination/special.jpg) center/cover;
+}
+.tours .img4{
+    background: url(../../../assets/img/tour/destination/iStock-1168406196-700x500.jpg) center/cover;
+}
+.tours .img5{
+    background: url(../../../assets/img/tour/destination/5-day.jpg) center/cover;
+}
+
+
+
+
+
+
+.tours .cardTours2{
+    background-color: #fff;
+    padding: 30px  20px 0 0;
+    margin-bottom: 30px;
+
+}
+.tours .cardTours2 h2{
+    display: inline-block;
+    transition: all .5s;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 15px ;
+}
+.tours .cardTours2 h2:hover{
+    color: #5C98F2;
+}
+
+.tours .cardTours2 .div-tour{
+    padding: 6px 0;
+}
+.div-tour span{
+    color: #8c8c8c;
+}
+.div-tour .color{
+    color: #5C98F2;
+    font-size: 13px;
+    padding-right: 6px;
+}
+
+.tours .cardTours2 p{
+    padding: 20px 0;
+    line-height: 1.8;
+}
+
+.rightC {
+    position: relative;
+    padding: 30px 0 40px 40px;
+}
+.rightC::before {
+    content: "";
+    height: 85% ;
+    width: 2px;
+    background-color: #8c8c8c57;
+    position: absolute;
+    left: 0;
+    top: 2%;
+}
+
+.rightC .forrm{
+    font-family: Sans-SemiBold,sans-serif;
+    display: block;
+    color: #8c8c8c;
+}
+.rightC .price{
+    font-family: Sans-SemiBold,sans-serif;
+    color: #5C98F2;
+    font-size: 35px;
+    font-weight: 600;
+}
+.rightC .d-flex i{
+    margin: 0 1px;
+    font-size: 15px;
+    color: goldenrod;
+    padding: 18px 0 4px 0;
+}
+.rightC .review{
+    color: #8c8c8c;
+    font-size: 13px;
+}
+.rightC .btn-n{
+    margin: 25px 0;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+.asd{
+    padding: 0 22px 22px 22px;
+}
+.latestT .sss{
+    margin-top: 25px;
+    border-bottom: 2px solid #8c8c8c44;
+    padding-bottom: 30px;   
+}
+
+.latestT .s1{
+    border-bottom: transparent;
+
+}
+.latestT h6{
+    transition: all .5s;
+    font-size: 17px;
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+.latestT h6:hover{
+    color: #5C98F2;
+}
+
+.latestT .btn-n{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 1px;
+}
+.latestT span{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-family: Sans-SemiBold ,sans-serif
+    ;
+}
+.latestT .lastestColor{
+    color: #5C98F2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.book .card{
+    box-shadow: 5px 5px 30px 5px #8c8c8c3a;
+    margin: 50px 0 100px 40px;
+    padding: 30px;
+    line-height: 2.8;
+}
+.book .card h3{
+    padding-bottom: 10px;
+}
+.book .card li i{
+    color: #5C98F2;
+    padding: 0 6px;
+    font-size: 19px;
+}
+.book .card li span{
+    color: #000000bd;
+    font-size: 17px;
+    padding-left: 5px;
+    font-family: Sans-SemiBold ,sans-serif
+    
+}

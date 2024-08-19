@@ -1,0 +1,347 @@
+    
+.RoomPages .tour-pages .hh i{
+    color: rgba(29, 29, 29, 0.733);
+}    
+    
+.RoomPages h1{
+    padding-top: 50px ;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.RoomPages .col1 .img{
+    border-radius: 0;
+}
+.RoomPages .col2 .img{
+    border-radius: 0;
+}
+
+
+.RoomPages section{
+    padding: 0;
+}
+
+
+.RoomPages .tour-sec2 {
+    font-family: Sans-Medium;
+    margin-top: 30px;
+}
+
+.RoomPages .f{
+    font-size: 30px;
+
+}
+.RoomPages .price{
+    font-size: 30px;
+    padding-left: 5px;
+}
+.RoomPages .b2  .P{
+    border-bottom: 1px solid rgba(168, 168, 168, 0.553);
+}
+
+
+.RoomPages .b1 .P-body{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.RoomPages .b2 .cardd{
+    display: flex;
+    align-items: center;
+    transition: all .4s;
+    margin: 15px 0;
+    border: 1px solid #84848436;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.RoomPages .b2 .cardd:hover{
+    transform: translateY(-8px);
+    border: 0;
+    box-shadow: 0 0 30px 0 rgba(168, 168, 168, 0.267);
+}
+
+.RoomPages .b2{
+
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px solid rgba(168, 168, 168, 0.553);
+}
+
+.RoomPages .b2 h2{
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 29px;
+    padding-bottom: 40px;
+    font-family: Serif-Re;
+}
+.RoomPages .b2 h2 span{
+    color: #5C98F2;
+}
+.RoomPages .b2 .Textt{
+    padding-left: 15px;
+    font-size: 20px;
+    color: #848484;
+    /* color: #5C98F2; */
+}
+
+.RoomPages .b2 .iconn{
+    font-size: 28px;
+    color: #222222ba;
+    /* color: #5C98F2; */
+}
+
+
+.RoomPages .b2 ul {
+    margin-top: -20px;
+    line-height: 2.5;
+}
+
+.RoomPages .b2 ul li span{
+    padding-left: 15px;
+    font-size: 20px;
+    color: #373737;
+}
+.RoomPages .sec3_pages .img{
+    height: 700px;
+}
+
+.RoomPages .sec3_pages .col-lg-3{
+    padding: 0;
+}
+.RoomPages .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/image_2.jpg) center/cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.LuxurySuite .tour-sec2 .Review-com .img-review{
+
+    background: url(../../../assets/img/person/eng.youssef.jpg) center/cover;
+
+}
+.LuxurySuite .col1 .img11{
+    background: url(../../../assets/img/room/pages/LuxurySuite/1.jpg)center/cover;
+}
+.LuxurySuite .col2 .img1{
+    background: url(../../../assets/img/room/pages/LuxurySuite/2.jpg )center/cover;
+}
+.LuxurySuite .col2 .img2{
+    background: url(../../../assets/img/room/pages/LuxurySuite/3.jpg)center/cover;
+}
+.LuxurySuite .col2 .img3{
+    background: url(../../../assets/img/room/pages/LuxurySuite/4.jpg)center/cover;
+}
+.LuxurySuite .col2 .img4{
+    background: url(../../../assets/img/room/pages/LuxurySuite/5.jpg)center/cover;
+}
+
+.LuxurySuite .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/LuxurySuite/sec3/kelsey-roenau-608583-unsplash.jpg)center/cover;
+}
+.LuxurySuite .sec3_pages .img2{
+    background: url(../../../assets/img/room/pages/LuxurySuite/sec3/2.jpg)center/cover;
+}
+.LuxurySuite .sec3_pages .img3{
+    background: url(../../../assets/img/room/pages/LuxurySuite/sec3/3.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.StandardDeluxe .col1 .img11{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/1.jpg)center/cover;
+}
+.StandardDeluxe .col2 .img1{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/2.jpg )center/cover;
+}
+.StandardDeluxe .col2 .img2{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/3.jpg)center/cover;
+}
+.StandardDeluxe .col2 .img3{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/4.jpg)center/cover;
+}
+.StandardDeluxe .col2 .img4{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/5.jpg)center/cover;
+}
+
+.StandardDeluxe .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/sec3/1.jpg)center/cover;
+}
+.StandardDeluxe .sec3_pages .img2{
+    background: url(../../../assets/img/room/pages/StandardDeluxe/sec3/2.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ThePenthouse .col1 .img11{
+    background: url(../../../assets/img/room/pages/ThePenthouse/1.jpg)center/cover;
+}
+.ThePenthouse .col2 .img1{
+    background: url(../../../assets/img/room/pages/ThePenthouse/2.jpg )center/cover;
+}
+.ThePenthouse .col2 .img2{
+    background: url(../../../assets/img/room/pages/ThePenthouse/3.jpg)center/cover;
+}
+.ThePenthouse .col2 .img3{
+    background: url(../../../assets/img/room/pages/ThePenthouse/4.jpg)center/cover;
+}
+.ThePenthouse .col2 .img4{
+    background: url(../../../assets/img/room/pages/ThePenthouse/5.jpg)center/cover;
+}
+
+.ThePenthouse .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/ThePenthouse/sec3/1.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.GrandSuiteRoom .col1 .img11{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/1.jpg)center/cover;
+}
+.GrandSuiteRoom .col2 .img1{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/2.jpg )center/cover;
+}
+.GrandSuiteRoom .col2 .img2{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/3.jpg)center/cover;
+}
+.GrandSuiteRoom .col2 .img3{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/4.jpg)center/cover;
+}
+.GrandSuiteRoom .col2 .img4{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/5.jpg)center/cover;
+}
+
+.GrandSuiteRoom .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/sec3/1.jpg)center/cover;
+}
+.GrandSuiteRoom .sec3_pages .img2{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/sec3/2.jpg)center/cover;
+}
+.GrandSuiteRoom .sec3_pages .img3{
+    background: url(../../../assets/img/room/pages/GrandSuiteRoom/sec3/3.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+.JuniorSuiteRoom .col1 .img11{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/1.jpg)center/cover;
+}
+.JuniorSuiteRoom .col2 .img1{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/2.jpg )center/cover;
+}
+.JuniorSuiteRoom .col2 .img2{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/3.jpg)center/cover;
+}
+.JuniorSuiteRoom .col2 .img3{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/4.jpg)center/cover;
+}
+.JuniorSuiteRoom .col2 .img4{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/5.jpg)center/cover;
+}
+
+.JuniorSuiteRoom .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/sec3/1.jpg)center/cover;
+}
+.JuniorSuiteRoom .sec3_pages .img2{
+    background: url(../../../assets/img/room/pages/JuniorSuiteRoom/sec3/2.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.StandardRoom .col1 .img11{
+    background: url(../../../assets/img/room/pages/StandardRoom/1.jpg)center/cover;
+}
+.StandardRoom .col2 .img1{
+    background: url(../../../assets/img/room/pages/StandardRoom/2.jpg )center/cover;
+}
+.StandardRoom .col2 .img2{
+    background: url(../../../assets/img/room/pages/StandardRoom/3.jpg)center/cover;
+}
+.StandardRoom .col2 .img3{
+    background: url(../../../assets/img/room/pages/StandardRoom/4.jpg)center/cover;
+}
+.StandardRoom .col2 .img4{
+    background: url(../../../assets/img/room/pages/StandardRoom/5.jpg)center/cover;
+}
+
+.StandardRoom .sec3_pages .img1{
+    background: url(../../../assets/img/room/pages/StandardRoom/sec3/1.jpg)center/cover;
+}
+.StandardRoom .sec3_pages .img2{
+    background: url(../../../assets/img/room/pages/StandardRoom/sec3/2.jpg)center/cover;
+}
+.StandardRoom .sec3_pages .img3{
+    background: url(../../../assets/img/room/pages/StandardRoom/sec3/3.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .tour-sec2 .Review-com .img-review{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    }

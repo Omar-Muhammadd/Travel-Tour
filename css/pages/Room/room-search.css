@@ -1,0 +1,103 @@
+.Room .sec-search .aside{
+    padding: 30px;
+}
+.Room .sec-search .aside form{
+    
+    font-family: Sans-Medium;
+    margin: 25px 0;
+}
+
+.Room .sec-search .aside form .border {
+    margin: 15px 0;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(154, 154, 154);
+    background-color: rgba(202, 202, 202, 0.195);
+}
+
+.Room .sec-search .aside form .input{
+    width: 100%;
+    font-size: 16px;
+    color: #0000009f;
+}
+
+.Facilities label{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 10px;
+    color: #000000b7;
+
+}
+
+.Facilities {
+    line-height:2;
+    color: rgb(133, 133, 133);
+    
+}
+.Facilities span{
+    padding-left: 8px;
+}
+
+.Room .sec-search .btn{
+    border: 2px solid #000000b7;
+    width: 100%;
+    padding: 20px 0;
+    font-weight: 600;
+    font-family: Sans-Medium;
+    margin-top: 20px;
+}
+.Room .sec-search .baba{
+    height: 300px;
+}
+
+.Room .sec-search .card{
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 #92929242;
+    margin: 30px 0;
+}
+.Room .sec-search .body{
+    padding: 30px;
+}
+
+.Room .sec-search .gold{
+    font-size: 15px;
+}
+.Room .sec-search .gold span{
+    font-size: 13px;
+    color: #929292b3;
+}
+
+.Room .sec-search .f{
+    font-size: 25px;
+}
+.Room .sec-search .price{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .tour-sec2 .Review-com .img-review{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    }

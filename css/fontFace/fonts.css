@@ -1,0 +1,29 @@
+/* DM_Serif_Display Font */
+
+@font-face {
+    font-family: Serif-Re;
+    src: url(../../assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
+
+
+
+
+/* DM_Sans Font */
+
+@font-face {
+    font-family: Sans-Regular;
+    src: url(../../assets/fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: Sans-Medium;
+    src: url(../../assets/fonts/DM_Sans/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: Sans-SemiBold;
+    src: url(../../assets/fonts/DM_Sans/DMSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: Sans-Bold;
+    src: url(../../assets/fonts/DM_Sans/DMSans-Bold.ttf);
+}

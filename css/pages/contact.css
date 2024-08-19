@@ -1,0 +1,88 @@
+.Contact header section{
+    background: url(../../assets/img/contact/section-bg-2.jpg)center/cover;
+    padding: 180px 0;
+    color: white;
+
+}
+
+.Contact section {
+    background-color: #e1e1e173;
+}
+
+.Contact header section h2{
+    font-size: 50px;
+}
+
+.Contact header section p{
+    font-size: 23px;
+    color: #ffffffbb;
+    padding: 10px;
+}
+
+.Contact .end{
+    background-color: #fff;
+}
+.Contact .end li{
+    margin: 0 18px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.Contact .sec-body h2{
+    position: relative;
+    margin: 30px 0;
+}
+.Contact .sec-body h2::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 2px;
+    height: 2px;
+    width: 7%;
+    background-color: black;
+}
+
+.Contact .sec-body p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.Contact .sec-body input{
+    display: block;
+    margin: 15px 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Contact .sec-body textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: transparent;
+}
+
+.Contact .sec-body .btn-n{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 50px;
+}
+.Contact .sec-body li{
+    margin: 15px 0;
+}
+.Contact .sec-body li i{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.Contact .sec-body li span{
+    font-size: 20px;
+    font-family: Sans-Medium;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+.Contact .sec-body iframe{
+    width: 100%;
+}

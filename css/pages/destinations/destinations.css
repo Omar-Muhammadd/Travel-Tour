@@ -1,0 +1,53 @@
+
+/*  destination */
+.Destinations{
+    background: url(../../../assets/img/header-d.jpg) ;
+}
+.destination .card{
+    height: 500px;
+}
+.destination .card .div-card {
+    bottom: -23%;
+}
+.destination .card .div-card h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* media */
+
+/* @media screen and (max-width: 1440px){
+   
+} */
+
+@media screen and (max-width: 1024px){
+
+    .destination .card .div-card {
+        bottom: -26%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .destination .card .div-card {
+        bottom: -32%;
+    }
+    .destination .card .div-card h3{
+        font-size: 35px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    .destination .card .div-card {
+        bottom: -26%;
+    }
+}
+
+
+
+

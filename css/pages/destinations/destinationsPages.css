@@ -1,0 +1,343 @@
+
+/* class */
+.Rating .d-flex{
+    color: goldenrod;
+}
+.Rating .d-flex i{
+    padding: 0 1px;
+}
+
+.Rating .d-flex span{
+    color: gray;
+    font-size: 15px; 
+    padding-left: 10px;
+}
+
+
+/* pages */
+.pages form{
+    margin-top: 12px;
+    top: 0;
+    display: inline-block;
+    border-radius: 13px;
+    border: 1px solid rgba(128, 128, 128, 0.277);
+    padding: 35px;
+}
+.pages form .aside{
+    display: block;
+    font-family: Sans-Medium,sans-serif ;
+}
+.pages form label{
+    display: block;
+    padding: 40px 0 10px 0;
+}
+.pages form .inputForm{
+    border: 1px solid rgba(128, 128, 128, 0.277);
+}
+.pages form .w90{
+    width: 90%;
+    padding: 10px;
+}
+.pages form input{
+    color: rgba(128, 128, 128, 0.87);
+    width: 100%;
+    padding: 10px;
+}
+.pages form select{
+    color: rgba(128, 128, 128, 0.87);
+    border: 1px solid rgba(128, 128, 128, 0.277);
+    padding: 10px;
+    width: 100%;
+}
+
+.pages form label span{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.pages form .TypeFilter .d-flex{
+    border-top: 1px solid rgba(128, 128, 128, 0.277);
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.pages form .TypeFilter .d-flex span{
+    color: #5C98F2;
+    padding-left: 25px;
+    font-weight: 600;
+}
+.pages form .checkbox{
+    padding: 3px;
+}
+.pages form .checkbox span{
+    color: rgb(128, 128, 128);
+}
+.pages form .checkbox input{
+    width: 10%;
+
+}
+
+.pages .btn-n{
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pages .card {
+    position: relative;
+}
+.pages .bestSeller a .best::before{
+    content: "Best Seller";
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    background-color: #5C98F2;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    z-index: 111;
+    font-family: Sans-SemiBold,sans-serif;
+    font-size: 16px;
+}
+
+.pages .SpecialOffer a .Specia::before{
+    content: "Special Offer";
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    background-color: #5C98F2;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    z-index: 111;
+    font-family: Sans-SemiBold,sans-serif;
+    font-size: 16px;
+}
+
+.pages .days{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.pages .days i{
+    color: #5C98F2;
+}
+.pages .days span{
+    color: rgba(128, 128, 128, 0.87);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Egypt */
+.egy-header{
+    background: url(../../../assets/img/header-d.jpg);
+}
+.Egypt{
+    text-align: center;
+}
+.Egypt h5{
+    font-size: 23px;
+}
+.Egypt h2{
+    padding-top: 25px;
+    font-size: 60px;
+}
+
+body .egypt{
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+
+.egypt .img1e{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/geran-de-klerk-N9s3FjzsstM-unsplash.jpg) center/cover;
+}
+.egypt .img2e{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/southA.jpg) center/cover;
+}
+.egypt .img3e{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/south3.jpg) center/cover;
+}
+
+
+
+
+
+
+
+
+/* South Africa */
+.SouthAfrica .img1s{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/south3.jpg) center/cover;
+}
+.SouthAfrica .img2s{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/sven-wilhelm-2cRXSWyMHA8-unsplash-700x500.jpg) center/cover;
+}
+
+
+
+
+
+
+
+/* Western Europe */
+.WesternEurope .img1w{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/brantley-neal-SiPPNnWzD_o-unsplash-700x500.jpg) center/cover;
+}
+.WesternEurope .img2w{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/sebastien-goldberg-Q8KGwGdDsW8-unsplash-scaled.jpg) center/cover;
+}
+.WesternEurope .img3w{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/sven-wilhelm-2cRXSWyMHA8-unsplash-700x500.jpg) center/cover;
+}
+
+
+
+
+
+
+
+
+/* Scandinavia */
+.Scandinavia .img1sc{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/iStock-1168406196-700x500.jpg) center/cover;
+}
+.Scandinavia .img2sc{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/sorasak-9DgwO_ihqL0-unsplash-700x500.jpg) center/cover;
+}
+
+
+
+
+
+
+/* Asia */
+.Asia .img1a{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/dubai.jpg) center/cover;
+}
+.Asia .img2a{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/molokini.jpg) center/cover;
+}
+.Asia .img3a{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/india.jpg) center/cover;
+}
+.Asia .img4a{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/thaland.jpg) center/cover;
+}
+.Asia .img5a{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/china.jpg) center/cover;
+}
+
+
+
+
+
+
+
+
+
+/* America */
+.America .img1am{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/5-day.jpg) center/cover;
+}
+.America .img2am{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/alctraz.jpg) center/cover;
+}
+.America .img3am{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/america.jpg) center/cover;
+}
+.America .img4am{
+    border-radius: 15px 15px 0 0 ;
+    background: url(../../../assets/img/tour/destination/special.jpg) center/cover;
+}
+
+
+
+
+
+
+
+/* tours-search */
+.page{
+    transition: all .5s;
+    margin: 80px 7px 0 7px;
+    padding: 10px 15px;
+    border-radius: 0 0 5px 5px ;
+    font-size: 20px;
+    color: #fff;
+    background-color: #5C98F2;
+    border-right: 1px solid #5C98F2;
+    border-left: 1px solid #5C98F2;
+    border-bottom: 1px solid #5C98F2;
+}
+.page:hover{
+    color: #5C98F2;
+    background-color: #fff;
+}
+
+.page1{
+    background-color: #fff;
+    color: #5C98F2;
+}
+
+
+
+
+
+
+
+
+/* media */
+/*
+@media screen and (max-width: 1440px){
+   
+}
+
+@media screen and (max-width: 1024px){
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+   
+}
+
+
+@media screen and (max-width: 600px){
+
+}
+ */
+
+
+
